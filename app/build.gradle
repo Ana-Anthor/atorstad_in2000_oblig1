@@ -38,6 +38,8 @@ dependencies {
     //Andriod´s support library for the framework (necessary for Glide)
     implementation 'com.android.support:support-compat:28.0.0'
 
-    //The support library to the dependencies section
+    //The support library to the dependencies section/ the recyclerview
     implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support:cardview-v7:28.0.0'
 }

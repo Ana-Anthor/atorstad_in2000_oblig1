@@ -5,14 +5,22 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".PictureActivity">
+        tools:context="com.Controller.PictureActivity">
 
-    <ImageView android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
+    <ImageView android:layout_width="0dp"
+               android:layout_height="220dp"
                android:id="@+id/image_from_url"
                android:layout_centerHorizontal="true"
                android:layout_centerVertical="true"
-    />
+               app:layout_constraintStart_toStartOf="parent"
+               android:layout_marginStart="8dp"
+               android:layout_marginTop="32dp"
+               app:layout_constraintTop_toTopOf="parent"
+               android:layout_marginEnd="8dp"
+               app:layout_constraintEnd_toEndOf="parent"
+               android:layout_marginBottom="32dp"
+               app:layout_constraintBottom_toTopOf="@+id/next_activity_btn"
+               android:contentDescription="@null"/>
 
     <Button android:layout_width="wrap_content"
             android:layout_height="0dp"
@@ -24,7 +32,7 @@
             app:layout_constraintHorizontal_bias="0.498"
             android:layout_marginBottom="32dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            android:text="NEXT ACTIVITY"
+            android:text="@string/next_activity"
             android:onClick="nextActivity"
     />
 

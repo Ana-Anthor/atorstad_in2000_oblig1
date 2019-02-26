@@ -12,13 +12,13 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".ListActivity">
+        <activity android:name="com.Controller.ListActivity">
         </activity>
         <activity
-                android:name=".Converter"
-                android:parentActivityName=".PictureActivity">
+                android:name="com.Controller.Converter"
+                android:parentActivityName="com.Controller.PictureActivity">
         </activity>
-        <activity android:name=".PictureActivity">
+        <activity android:name="com.Controller.PictureActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

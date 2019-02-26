@@ -1,16 +1,15 @@
-package com.example.atorstad_in2000_oblig1
+package com.Controller
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.provider.AlarmClock.EXTRA_MESSAGE
 import android.view.View
 import android.widget.EditText
 import android.widget.Toast
+import com.example.atorstad_in2000_oblig1.R
 import kotlinx.android.synthetic.main.activity_converter.*
 
-//Det kan se ut som om det var denne som manglet???
-const val EXTRA_MESSAGE = "com.example.atorstad_in2000_oblig1.MESSAGE"
+
 
 class Converter : AppCompatActivity() {
 
